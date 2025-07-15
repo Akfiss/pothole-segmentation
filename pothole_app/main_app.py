@@ -14,7 +14,7 @@ from frame_processor import process_and_draw_frame
 from ui_components import setup_sidebar, display_summary_and_export, update_sidebar_stats, add_reset_button 
 
 # --- Konfigurasi Aplikasi & Pemuatan Model ---
-MODEL_PATH = 'D:/[PERKULIAHAN]/Matakuliah/TA/pothole/model/skenario17/train/weights/best.pt' # Pastikan path ini benar
+MODEL_PATH = 'best.pt' # Pastikan path ini benar
 LOGO_PATH = None 
 
 st.set_page_config(
