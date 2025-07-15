@@ -48,7 +48,7 @@ numpy
 oauthlib
 onnx
 onnx-tf
-opencv-python
+opencv-python-headless
 opt_einsum
 packaging
 pandas
