@@ -13,6 +13,9 @@ from model_loader import load_yolo_model
 from frame_processor import process_and_draw_frame
 from ui_components import setup_sidebar, display_summary_and_export, update_sidebar_stats, add_reset_button 
 
+# Streamlit cloud workaround
+os.environ["YOLO_CONFIG_DIR"] = "/tmp"
+
 # --- Konfigurasi Aplikasi & Pemuatan Model ---
 MODEL_PATH = 'best.pt' # Pastikan path ini benar
 LOGO_PATH = None 
