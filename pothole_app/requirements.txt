@@ -1,5 +1,4 @@
 absl-py
-libgl1-mesa-glx
 aioice
 aiortc
 altair
