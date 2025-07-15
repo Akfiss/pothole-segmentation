@@ -3,6 +3,7 @@
 import streamlit as st
 import tempfile
 import os
+import cv2
 from datetime import datetime
 import pandas as pd
 import numpy as np # <-- Tambahkan import ini
